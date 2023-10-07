@@ -6,13 +6,21 @@
       "text": "1.html",
       "text_made_by": "Legnani Matteo",
       "questions": "1_questions.json"
-    },
+    }
+    ,
     {
       "date": "15/09/2022",
       "title": "Lezione 2",
       "text": "2.html",
       "text_made_by": "legnani Matteo",
       "questions": "2_questions.json"
+    }
+    ,{
+      "date": "07/10/2022",
+      "title": "Lezione 3",
+      "text": "3.html",
+      "text_made_by": "legnani Matteo",
+      "questions": "3_questions.json"
     }
   ]
 }  
