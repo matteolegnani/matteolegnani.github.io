@@ -1,21 +1,21 @@
 {
   "lessons": [
     {
-      "date": "12/09/2023",
+      "date": "settembre 2023",
       "title": "SISTEMA DI COMUNICAZIONE",
       "text": "1.html",
       "text_made_by": "Legnani Matteo",
       "questions": "1_questions.json"
     },
     {
-      "date": "15/09/2022",
+      "date": "settembre 2023",
       "title": "COMPONENTI",
       "text": "2.html",
       "text_made_by": "legnani Matteo",
       "questions": "2_questions.json"
     },
     {
-      "date": "07/10/2022",
+      "date": "ottobre 2023",
       "title": "TIPI DI COMPONENTI",
       "text": "3.html",
       "text_made_by": "legnani Matteo",
