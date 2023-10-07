@@ -14,5 +14,12 @@
       "text_made_by": "Paolino Paperino",
       "questions": "2_questions.json"
     }
+    ,{
+      "date": "15/09/2022",
+      "title": "Lezione 2",
+      "text": "2.html",
+      "text_made_by": "Paolino Paperino",
+      "questions": "2_questions.json"
+    }
   ]
 }  
