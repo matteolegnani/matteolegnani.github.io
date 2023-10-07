@@ -2,21 +2,21 @@
   "lessons": [
     {
       "date": "12/09/2023",
-      "title": "Lezione 1",
+      "title": "SISTEMA",
       "text": "1.html",
       "text_made_by": "Paolino Paperino",
       "questions": "1_questions.json"
     },
     {
       "date": "15/09/2022",
-      "title": "Lezione 2",
+      "title": "AUTOMA",
       "text": "2.html",
       "text_made_by": "Paolino Paperino",
       "questions": "2_questions.json"
     }
     ,{
       "date": "17/09/2022",
-      "title": "Lezione 3",
+      "title": "MODELLI",
       "text": "3.html",
       "text_made_by": "Paolino Paperino",
       "questions": "3_questions.json"
