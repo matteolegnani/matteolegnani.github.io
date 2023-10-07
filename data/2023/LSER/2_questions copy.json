@@ -1,19 +1,10 @@
 {
   "questions": [
     {
-      "text": "Domanda 1?"
+      "text": "Test domanda 1"
     },
     {
-      "text": "Domanda 2?"
-    },
-    {
-      "text": "Domanda 3?"
-    },
-    {
-      "text": "Domanda 4?"
-    },
-    {
-      "text": "Domanda 5?"
+      "text": "Test domanda 2"
     }
   ]
 } 
