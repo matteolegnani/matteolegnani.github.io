@@ -21,5 +21,12 @@
       "text_made_by": "Paolino Paperino",
       "questions": "3_questions.json"
     }
+    ,{
+      "date": "ottobre 2023",
+      "title": "MICROPROCESSORE",
+      "text": "4.html",
+      "text_made_by": "Paolino Paperino",
+      "questions": "4_questions.json"
+    }
   ]
 }  
