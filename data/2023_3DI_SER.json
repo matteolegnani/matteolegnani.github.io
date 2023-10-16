@@ -4,35 +4,35 @@
       "date": "settembre 2023",
       "title": "SISTEMA",
       "text": "1.html",
-      "text_made_by": "Paolino Paperino",
+      "text_made_by": "legnani Matteo",
       "questions": "1_questions.json"
     },
     {
       "date": "settembre 2023",
       "title": "AUTOMA",
       "text": "2.html",
-      "text_made_by": "Paolino Paperino",
+      "text_made_by": "legnani Matteo",
       "questions": "2_questions.json"
     }
     ,{
       "date": "ottobre 2023",
       "title": "MODELLI",
       "text": "3.html",
-      "text_made_by": "Paolino Paperino",
+      "text_made_by": "legnani Matteo",
       "questions": "3_questions.json"
     }
     ,{
       "date": "ottobre 2023",
       "title": "MICROPROCESSORE",
       "text": "4.html",
-      "text_made_by": "Paolino Paperino",
+      "text_made_by": "legnani Matteo",
       "questions": "4_questions.json"
     }
     ,{
       "date": "ottobre 2023",
       "title": "CICLO MACCHINA",
       "text": "5.html",
-      "text_made_by": "Paolino Paperino",
+      "text_made_by": "legnani Matteo",
       "questions": "5_questions.json"
     }
   ]
