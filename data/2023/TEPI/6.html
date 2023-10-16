@@ -1,0 +1,80 @@
+<p>
+    <meta charset="utf-8">
+</p>
+<p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr">
+    <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">ASCII usa 7 bit per ogni carattere, permette di codificare 128 caratteri, come lettere maiuscole/minuscole, numeri, segni di punteggiatura e caratteri di controllo</span></span>
+</p>
+<p>
+    &nbsp;
+</p>
+<p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr">
+    <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">UNICODE, sistema di codifica dei caratteri che rappresenta ogni carattere nella scrittura di testo&nbsp;</span></span>
+</p>
+<p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr">
+    <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Al centro c'è un vasto set di numeri, e ogni numero è associato a carattere, i numeri sono chiamati "</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>punti codice</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">", Esistono varie codifiche (come UTF-8, UTF-16, UTF-32) che definiscono come trasformare un punto codice in una sequenza di bit e viceversa</span></span>
+</p>
+<ul style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
+    <li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1">
+        <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">UTF-8 → codifica di caratteri più popolare, a lunghezza variabile, può rappresentare un punto codice utilizzando da 1 a 4 byte, i primi 128 caratteri di Unicode corrispondono ai caratteri ASCII</span></span>
+    </li>
+</ul>
+<p style="line-height:1.38;margin-bottom:0pt;margin-left:36pt;margin-top:0pt;" dir="ltr">
+    <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">-&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Byte singolo (ASCII)</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: I caratteri da 0-127 vengono codificati con 1 byte che inizia con lo 0&nbsp;</span></span>
+</p>
+<p style="line-height:1.38;margin-bottom:0pt;margin-left:36pt;margin-top:0pt;" dir="ltr">
+    <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">-&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>2 Byte</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: il primo byte inizierà con 110, e il secondo inizierà con 10</span></span>
+</p>
+<p style="line-height:1.38;margin-bottom:0pt;margin-left:36pt;margin-top:0pt;" dir="ltr">
+    <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">-&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>3 Byte</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: il primo byte inizia con 1110, e i due byte successivi iniziano con 10</span></span>
+</p>
+<p style="line-height:1.38;margin-bottom:0pt;margin-left:36pt;margin-top:0pt;" dir="ltr">
+    <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">-&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>4 Byte</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: il primo byte che inizia con 11110, seguito da tre byte che iniziano tutti con 10</span></span>
+</p>
+<ul style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
+    <li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1">
+        <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">UTF-16 utilizza 2 o 4 byte</span></span>
+    </li>
+    <li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1">
+        <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">UTF-32 utilizza sempre 4 byte per carattere</span></span>
+    </li>
+</ul>
+<p>
+    &nbsp;
+</p>
+<p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr">
+    <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">CARATTERI DI CONTROLLO → per formattare/controllare la visualizzazione del testo</span></span>
+</p>
+<p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr">
+    <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">esistono diverse codifiche e non tutte sono compatibili tra loro → problemi quando si lavora con il testo</span></span>
+</p>
+<ol style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
+    <li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:decimal;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1">
+        <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Mismatch di Codifica</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, una risorsa web viene salvato con una codifica, ma interpretato con un’altra</span></span>
+    </li>
+    <li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:decimal;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1">
+        <h4 style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr" role="presentation">
+            <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Caratteri Non Rappresentabili,&nbsp;</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">alcune codifiche possono non supportare determinati caratteri</span></span>
+        </h4>
+    </li>
+    <li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:decimal;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1">
+        <h4 style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr" role="presentation">
+            <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Problemi di Retrocompatibilità</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, non tutte le codifiche sono retrocompatibili con versioni precedenti</span></span>
+        </h4>
+    </li>
+    <li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:decimal;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1">
+        <h4 style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr" role="presentation">
+            <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Efficienza della Memoria</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, codifiche diverse → quantità diverse di memoria</span></span><br>
+            <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">altre codifiche → ottimizzate per la compattezza, altre → quantità fissa di memoria&nbsp;</span></span>
+        </h4>
+    </li>
+    <li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:decimal;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1">
+        <h4 style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr" role="presentation">
+            <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Problemi di Trasmissione e Archiviazione</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, i dati vengono trasferiti tra i sistemi → problemi se il sistema di destinazione non supporta la codifica utilizzata</span></span>
+        </h4>
+    </li>
+    <li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:decimal;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1">
+        <h4 style="line-height:1.38;margin-bottom:8pt;margin-top:0pt;" dir="ltr" role="presentation">
+            <span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Problemi nell'Interfaccia Utente</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, app non gestita bene → caratteri errati o messaggi di errore&nbsp;</span></span>
+        </h4>
+    </li>
+</ol>

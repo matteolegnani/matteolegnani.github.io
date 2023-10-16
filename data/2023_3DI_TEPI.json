@@ -35,5 +35,12 @@
       "text_made_by": "legnani Matteo",
       "questions": "5_questions.json"
     }
+    ,{
+      "date": "ottobre 2023",
+      "title": "ASCII",
+      "text": "6.html",
+      "text_made_by": "legnani Matteo",
+      "questions": "6_questions.json"
+    }
   ]
 }  
